@@ -1,0 +1,18 @@
+.jumboton{
+    padding-top: 20px;
+
+}
+
+img{
+    max-width: 100%;
+}
+
+.row img{
+    filter: grayscale(1.5) brightness(0.6);
+    transition: 0.3s linear;
+}
+
+.row img:hover{
+    filter: grayscale(0) brightness(1);
+
+}
